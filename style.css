@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    font-family: 'karla', sans-serif;
+}
+
+header{
+        background-color:yellow ;
+        height: 70px;
+        text-align: center;
+        line-height: 70px;
+        box-shadow: 0 1px 2px #ccc;
+}
+
+main{
+    background-color: teal;
+    flex-grow: 1;
+}
+
+footer{
+        background-color: violet;
+}
